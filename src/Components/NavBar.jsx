@@ -10,12 +10,15 @@ const NavBar = () => {
 
         <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">Katharsis.cl</Navbar.Brand>
+                <Navbar.Brand href="#home">Katharsis</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home">inicio</Nav.Link>
                         <Nav.Link href="#link">nosotros</Nav.Link>
+                        <Nav.Link href="#link">servicios</Nav.Link>
+                        <Nav.Link href="#link">equipo clave</Nav.Link>
+                        <Nav.Link href="#link">catálogo de artistas</Nav.Link>
                         <NavDropdown title="Kaskivano" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Historia</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Discografía</NavDropdown.Item>

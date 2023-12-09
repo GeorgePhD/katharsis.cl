@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Components/Footer/Footer'
 import InicioContent from './Components/InicioContent/InicioContent'
 import InicioImagesContainer from './Components/InicioImagesContainer/InicioImagesContainer'
 import NavBar from './Components/NavBar'
@@ -14,6 +15,7 @@ function App() {
       <InicioContent />
       {/* <Nosotros /> */}
       <InicioImagesContainer />
+      <Footer />
     </>
   )
 }
