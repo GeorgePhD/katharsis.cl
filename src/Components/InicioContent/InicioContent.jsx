@@ -3,7 +3,7 @@ import './inicio-content.css'
 const InicioContent = () => {
     return (
         <div className='inicio-content'>
-            <h1 className='info'>Importante: <br /> el sitio tendrá estilos básicos y serán modificados a medida que vamos hablando y poniéndonos de acuerdo. Por ahora nos enfocamos en la estructura y una vez finalizada esta, le damos estilos. Las imégenes cargan lento por ahora, la carga será rápida cuando las optimicemos. El menu es una muestra, los links a las diferentes secciones será añadidas al futuro.</h1>
+            <h1 className='info'>Importante: <br /> el sitio tendrá estilos básicos y serán modificados a medida que vamos hablando y poniéndonos de acuerdo. Por ahora nos enfocamos en la estructura y una vez finalizada esta, le damos estilos. Las imégenes cargan lento por ahora, la carga será rápida cuando las optimicemos. El menu es una muestra, los links a las diferentes secciones será añadidas al futuro. El sitio web deberá ser visto desde un notebook por ahora ya que los estilos de celular se harán una vez terminados los estilos para notebook.</h1>
             <h1 className='title'>Perfil Profesional de Katharsis</h1>
             <h3 className='subtile'>Visión</h3>
             <p className='text'>En Katharsis, nos enorgullece ser más que una productora musical; somos arquitectos de experiencias auditivas. Nos esforzamos por elevar cada proyecto a nuevas alturas, proporcionando un sonido excepcional que resuene en la mente de nuestro público.</p>
