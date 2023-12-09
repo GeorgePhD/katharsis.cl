@@ -1,5 +1,8 @@
-import React from 'react'
-import './inicio-images-container.css'
+import './inicio-images-container.css';
+import '../../../public/img/Katharsis.png';
+import '../../../public/img/Colorful-Cool-Lonely-Man-Watching-the-Sunset-Photo-Album-Cover-(1).png';
+import '../../../public/img/Colorful-Cool-Lonely-Man-Watching-the-Sunset-Photo-Album-Cover-(2).png';
+import '../../../public/img/Colorful-Cool-Lonely-Man-Watching-the-Sunset-Photo-Album-Cover.png';
 const InicioImagesContainer = () => {
 
 
