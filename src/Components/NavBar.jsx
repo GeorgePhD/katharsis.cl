@@ -5,13 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Link, Outlet } from 'react-router-dom';
 import Nosotros from './Nosotros/Nosotros';
-
+import Logo from '../../public/img/logo30x30.png';
+import './navbar.css';
 const NavBar = () => {
 
     return (
         <>
         <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
             <Container>
+                <img className='logo' src={Logo} alt="" />
                 <Navbar.Brand as={Link} to="/">Katharsis</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

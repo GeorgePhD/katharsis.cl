@@ -1,5 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #dee2e6;
 }
 
-
+.title, .subtile, .text {
+    margin: 1rem;
+}
+.title {
+    font-size: 2rem;
+}
+.subtitle {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.text {
+    font-size: 1.1rem;
+}

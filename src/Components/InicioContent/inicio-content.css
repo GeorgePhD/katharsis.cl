@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .info {
     color: green;
     font-size: 1.6rem;
@@ -16,18 +12,6 @@
     width: 80%;
     margin: 0 auto;
     font-size: 10px;
-}
-.title, .subtile, .text {
-    margin: 1rem;
-}
-.title {
-    font-size: 2rem;
-}
-.subtitle {
-    font-size: 1.2rem;
-}
-.text {
-    font-size: 1.1rem;
 }
 .valores-container {
     width: 100%;

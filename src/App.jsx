@@ -19,9 +19,9 @@ function App() {
 
   return (
     <>
-    
       <BrowserRouter>
       <NavBar />
+      <h1 className='info'>Importante: <br /> el sitio tendrá estilos básicos y serán modificados a medida que vamos hablando y poniéndonos de acuerdo. Por ahora el foco es la estructura y una vez finalizada esta, le damos estilos. Las imágenes cargan lento por ahora, esto cambiará cuando las optimicemos. El menú funciona ya. El sitio web deberá ser visto desde un notebook por ahora ya que los estilos de celular se harán una vez terminados los estilos para notebook.</h1>
         <Routes>
 
             <Route path="/" element={<NavBar />} />
